@@ -1,3 +1,5 @@
+package exerciciomanha;
+
 public class Pessoa {
 
     private String id;

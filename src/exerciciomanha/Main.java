@@ -1,3 +1,5 @@
+package exerciciomanha;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -5,7 +7,7 @@ public class Main {
         Pessoa pessoa1 = new Pessoa("2","Rafael",23 );
         Pessoa pessoa2 = new Pessoa("3","Pedro", 45, 105.45, 1.85);
 
-        //Pessoa pessoa3 = new Pessoa("Henrique",45); -  Esta criação de objeto não será
+        //exerciciomanha.Pessoa pessoa3 = new exerciciomanha.Pessoa("Henrique",45); -  Esta criação de objeto não será
         // permitido devido a não constar um construtors com apenas nome e idade
 
         System.out.println(pessoa2.toString());
